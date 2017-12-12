@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<shop name="ru.ncedu.maxwell.myshop.MyShop"
+      url="http://MyShop.com">
+	<categories> 
+		<category id="1">Смартфоны</category>
+		<category id="2">Ноутбуки</category>
+		<category id="3">Хот-доги</category>
+	</categories>
+	<offers>
+		<offer offerId="1" available="true">
+			<name>Lenovo y50-70</name>
+			<price>700</price>
+			<categoryId>2</categoryId>
+			<description>Notebook, black</description>
+		</offer>
+		<offer offerId="2" available="true">
+			<name>Xiaomi Mi4C 16Gb</name>
+			<price>143</price>
+			<categoryId>1</categoryId>
+			<description>5.0 inch Android 5.1 Snapdragon 808 64-bit Hexa Core 1.44GHz 16GB ROM 13.0MP + 5.0 MP Camera</description>
+		</offer>
+		<offer offerId="3" available="true">
+			<name>Xiaomi Mi-Air</name>
+			<price>600</price>
+			<categoryId>2</categoryId>
+			<description>Notebook, white</description>
+		</offer>
+		<offer offerId="4" available="true">
+			<name>Хот-дог с сыром</name>
+			<price>5</price>
+			<categoryId>3</categoryId>
+			<description>Вкусный на нежной булочке!</description>
+		</offer>
+		
+	</offers>
+</shop>
