@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.ncedu.maxwell.myshop</groupId>
+    <groupId>ru.ncedu.maxwell</groupId>
     <artifactId>MyShop</artifactId>
-    <version>0.1</version>
+    <version>0.1.5</version>
     <packaging>jar</packaging>
     <properties>
         <maven.compiler.source>1.7</maven.compiler.source>

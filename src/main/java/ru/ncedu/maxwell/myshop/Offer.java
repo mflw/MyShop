@@ -1,9 +1,11 @@
 package ru.ncedu.maxwell.myshop;
 
+import java.io.Serializable;
+
 /**
  * Created by maxwell on 20.11.2017.
  */
-public class Offer {
+public class Offer implements Serializable {
     private String id;
     private String name;
     private String price;

@@ -1,1 +1,1 @@
-java -jar MyShop-0.1.jar
+java -jar MyShop-0.1.5.jar

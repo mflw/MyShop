@@ -1,14 +1,24 @@
 package ru.ncedu.maxwell.myshop;
 
+import java.io.*;
 import java.util.ArrayList;
 
 /**
  * Created by maxwell on 20.11.2017.
  */
-public class ShoppingCart {
+public class ShoppingCart implements Serializable {
     private ArrayList<Offer> cart;
     public ShoppingCart() {
-        cart = new ArrayList<>();
+        try {
+            FileInputStream fis = new FileInputStream("myCart.ser");
+            ObjectInputStream ois = new ObjectInputStream(fis);
+            cart = (ArrayList<Offer>) ois.readObject();
+            ois.close();
+        } catch (IOException e) {
+            cart = new ArrayList<>();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     void addItem(Offer offer) {
@@ -34,6 +44,26 @@ public class ShoppingCart {
             System.out.println("------------------");
         }
         System.out.println("             "+sum+"$");
+    }
+    void saveCart() {
+        try {
+            FileOutputStream fos = new FileOutputStream("myCart.ser");
+            ObjectOutputStream oos = new ObjectOutputStream(fos);
+            oos.writeObject(cart);
+            oos.close();
+
+        } catch (IOException e) {
+            File cartFile = new File("myCart.ser");
+            //System.out.println("ошибка чтения");
+            try {
+                cartFile.createNewFile();
+                this.saveCart();
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+
+        }
+
     }
 }
 

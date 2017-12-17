@@ -21,7 +21,7 @@ public class Catalog {
 
         try {
             DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-            //feed = builder.parse("src/main/resources/feed.xml");
+//            feed = builder.parse("src/main/resources/feed.xml");
             feed = builder.parse("classes/feed.xml");
         } catch (SAXException | IOException e) {
             e.printStackTrace();
@@ -73,7 +73,7 @@ public class Catalog {
                             break;
                     }
                 }
-                System.out.println(offerId + "  " + name + "  --  " + "$" + price); //todo create Offer object
+                System.out.println(offerId + "  " + name + "  --  " + "$" + price);
 
             }
 
@@ -83,7 +83,7 @@ public class Catalog {
 
     }
 
-    Offer showOffer(String offerId) { //todo take from Array<Offer>
+    Offer showOffer(String offerId) {
         String name = "???";
         String price = "???";
         String description = "???";

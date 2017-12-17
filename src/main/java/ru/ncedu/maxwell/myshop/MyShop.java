@@ -14,7 +14,7 @@ public class MyShop {
     public static void main(String arqs[]) throws IOException, ParserConfigurationException {
 
         Menu menu = new Menu();
-        ShoppingCart myCart = new ShoppingCart();
+        //ShoppingCart myCart = new ShoppingCart();
         menu.mainMenu();
 
 
