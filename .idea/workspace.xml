@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bc0242e-cc97-4a1e-a2cc-f92fbfa0f764" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyShop-0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/run.bat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/ncedu/maxwell/myshop/Menu.class" afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/maxwell/myshop/Menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/ncedu/maxwell/myshop/MyShop.class" afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/maxwell/myshop/MyShop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/ncedu/maxwell/myshop/Offer.class" afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/maxwell/myshop/Offer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/ncedu/maxwell/myshop/ShoppingCart.class" afterPath="$PROJECT_DIR$/target/classes/ru/ncedu/maxwell/myshop/ShoppingCart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/ncedu/maxwell/myshop/Catalog.java" afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/maxwell/myshop/Catalog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/ncedu/maxwell/myshop/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/maxwell/myshop/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/ncedu/maxwell/myshop/MyShop.java" afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/maxwell/myshop/MyShop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/ncedu/maxwell/myshop/Offer.java" afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/maxwell/myshop/Offer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/ncedu/maxwell/myshop/ShoppingCart.java" afterPath="$PROJECT_DIR$/src/main/java/ru/ncedu/maxwell/myshop/ShoppingCart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-    </list>
+    <list default="true" id="4bc0242e-cc97-4a1e-a2cc-f92fbfa0f764" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -822,7 +807,7 @@
       <workItem from="1512072640339" duration="6769000" />
       <workItem from="1512223921126" duration="9710000" />
       <workItem from="1513016541423" duration="8773000" />
-      <workItem from="1513518877984" duration="9858000" />
+      <workItem from="1513518877984" duration="10270000" />
     </task>
     <task id="LOCAL-00001" summary="shop alpha">
       <created>1513113672105</created>
@@ -842,7 +827,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75518000" />
+    <option name="totallyTimeSpent" value="75930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -867,7 +852,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20611551" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19871107" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0706278" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21643394" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="1165" y="240" width="699" height="365" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21643394" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="1165" y="240" width="699" height="365" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43071964" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
